@@ -1,0 +1,182 @@
+@media screen and (min-width:768px) {
+    .container{
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mob-menu{
+        display: none;
+    }
+
+    .menu-open{
+        display: none;
+    }
+
+    .header .container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header{
+        padding-bottom: 0;
+    }
+
+    .header-logo{
+        margin-right: 123px;
+    }
+
+    .contacts{
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 4px;
+        margin-left: 118px;
+    }
+
+    .header-link{
+        font-weight: 400;
+font-size: 12px;
+line-height: calc(16/12);
+    }
+
+    .links{
+        display: flex;
+    }
+
+    .hero-txt{
+        width: 494px;
+        font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+    }
+    .hero{    
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), 
+        url(../images/hero-bg-tablet.jpg);
+        width: auto;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .hero {
+    background-image:  linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)), 
+    url(../images/hero-bg-tablet-2x.jpg);
+  }
+}
+
+    .adv-h{
+        margin-top: 0;
+        text-align: left;
+        
+    }
+
+    .advantages{
+        width: 356px;
+        margin: 0;
+    }
+
+    .advantages-punkts{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
+        width: 100%;
+    justify-content: center;
+    }
+
+    .worklist{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        align-items: center;
+        justify-content: center;
+    }
+    .worklistt{
+        margin-top: 64px;
+    }
+
+    .team{
+        padding-bottom: 104px;
+    }   
+
+    .customers-list{
+        width:auto;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo-cont{
+        float: left;
+        padding-left: 108px;
+    }
+
+    .footer-link{
+        display: block;
+        text-align: left;
+    }
+
+    .footer{
+        padding-top: 96px;
+        height: 464px;
+    }
+
+    .link-cont{
+        float: left;
+        margin-left: 24px;
+    }
+
+    .footer-list{
+        display: flex;
+        float: left;
+ 
+    }
+
+    .footer-txt{
+        margin-bottom: 16px;
+        margin-top: 0;
+    }
+
+    .footer-text{
+        width: 264px;
+    }
+
+    .footer-txt{
+        text-align: left;
+
+    }
+
+    .foot-input{
+        width: 264px;
+
+    }
+
+    .sub-two-cont{
+        display: flex;
+        gap: 24px;
+    }
+
+    .sub-text{
+        text-align: left;
+    }
+
+
+    .foot-int-btn{
+        display: flex;
+    }
+
+    .sub-btn{
+        margin: 0;
+    }
+
+    .foot-sube{
+       float: left;
+        padding-left: 108px;
+    }
+
+    .modal{
+        width: 408px;
+    }
+}

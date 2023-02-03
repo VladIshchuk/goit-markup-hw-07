@@ -1,0 +1,142 @@
+@media screen and (min-width:1200px){
+    
+    .container{
+        width: 1158px;
+    }
+
+    .header{
+        padding-bottom: 28px;
+    }
+
+    .header-logo{
+        margin-right: 76px;
+        
+    }
+
+    .contacts{
+        margin-left: 332px;
+    }
+
+    .advantages{
+        width: 264px;
+    }
+
+    .adv-h{
+        font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+    }
+
+    .advantages-punkts p{
+        font-weight: 400;
+    }
+
+    .hero{    
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+         url(../images/hero-bg-desktop.jpg);
+
+    }
+
+    @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .hero {
+    background-image:  linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)), 
+    url(../images/hero-bg-desktop-2x.jpg);
+  }
+}
+
+    .adv-div {
+        background: var(--cloud-color);
+        border-radius: 4px;
+        margin-bottom: 8px;
+        height: 112px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .advantaged-photo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 64px;
+        height: 64px;
+    }
+    
+
+    .team{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    
+    .worklist{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .customers-penkts{
+        width: 168px;
+    }
+
+    .customers{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .customers-list{
+        width: 100%;
+        min-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        height: 310px;
+    }
+
+    .foot-sube{
+padding: 0;
+margin-left: 80px;
+
+
+    }
+
+    .sub-text{
+        margin-top: 0;
+    }
+    .footer-txt{
+        margin: 0 auto;
+    }
+    .foot-link{
+    margin-left: 120px;
+    float: left;
+}
+
+.footer-list{
+    margin-top: 16px;
+    margin-left: auto;
+}
+
+    .link-cont{
+        margin-left: 120px;
+    }
+    
+    .none-cont{
+        display: flex;
+    }
+    
+    .logo-cont{
+        padding-left: 0;
+    }
+
+}
