@@ -112,7 +112,7 @@ body{
     height: 4px;
     background-color: var(--ocean-color);
     left: 0;
-    bottom: -27px;
+    bottom: -32px;
     border-radius: 2px;
 
 }
@@ -296,8 +296,8 @@ text-align: center;
 
 .hero{
     background-color: var(--navy-color);
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 112px;
+    padding-bottom: 112px;
     margin-left: auto;
     margin-right: auto;
     
@@ -463,6 +463,9 @@ text-align: center;
 
 .worklistt{
     margin-top: 72px;
+    max-width: 264px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -560,10 +563,9 @@ list-style: none;
 display: flex;
 flex-wrap: wrap;
 row-gap: 72px;
-column-gap: 16px;
 align-items: center;
+column-gap: 16px;
 justify-content: center;
-
 }
 
 .customers-link{
@@ -578,7 +580,7 @@ justify-content: center;
     border: 1px solid #8E8F99;
     border-radius: 4px;
     height: 88px;
-    width: 45%;
+    width: calc(( 100% - 48px ) / 2 );
 }
 .customers-link,.customers-card,.customers-penkts{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -721,6 +723,7 @@ text-align: center;
     color: var(--white-color);
     padding-left: 16px;
     width: 100%;
+    outline: none;
 }
 
 .sub-btn{
@@ -900,6 +903,9 @@ margin-bottom: 6px;
     cursor: pointer;
     margin: 0 auto;
     display: block;
+    font-weight: 500;
+font-size: 16px;
+line-height: calc(24/16);
 }
 
 .modal-label{

@@ -2,6 +2,10 @@
     .container{
         width: 428px;
     }
+
+.hero-txt{
+    width: 318px;
+}
     
     .worklistt{
         width: 264px;
@@ -12,20 +16,21 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    .customers-penkts{
-        width: 190px;
-    }
 .footer{
     width: 100%;
 }
 
+.footer-text{
+    width: 268px;
+}
+
 .customers-penkts{
-    width: 190px;
+    width: calc(( 100% - 46px ) / 2 );
 
 }
 
 .customers-list{
-    width: 470px;
+    
     margin-left: auto;
     margin-right: auto;
 }

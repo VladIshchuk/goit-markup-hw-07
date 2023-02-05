@@ -35,6 +35,9 @@ line-height: 24px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
          url(../images/hero-bg-desktop.jpg);
+         width: 1440px;
+         margin-left: auto;
+         margin-right: auto;
 
     }
 
@@ -45,8 +48,16 @@ line-height: 24px;
     background-image:  linear-gradient(rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)), 
     url(../images/hero-bg-desktop-2x.jpg);
+    width: 1440px;
+         margin-left: auto;
+         margin-right: auto;
   }
+  
 }
+        .work-ex{
+            padding-top: 120px;
+            padding-bottom: 120px;
+        }
 
     .adv-div {
         background: var(--cloud-color);
@@ -67,6 +78,10 @@ line-height: 24px;
     }
     
 
+    .what-doing{
+        padding-top: 0;
+    }
+
     .team{
         padding-top: 120px;
         padding-bottom: 120px;
@@ -80,7 +95,12 @@ line-height: 24px;
         justify-content: center;
     }
 
-
+    .customers .container{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .customers-penkts{
         width: 168px;
