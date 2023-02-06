@@ -9,6 +9,7 @@
         display: none;
     }
 
+
     .menu-open{
         display: none;
     }
@@ -20,6 +21,11 @@
 
     .header{
         padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .header-navi{
+        padding-top: 14px;
     }
 
     .header-logo{
@@ -30,7 +36,8 @@
         display: flex;
         flex-wrap: wrap;
         row-gap: 4px;  
-        margin-left: 118px; 
+        margin-left: 118px;
+        justify-content: center; 
     }
 
     .contacts a {
@@ -99,18 +106,23 @@ line-height: 60px;
         column-gap: 24px;
         align-items: center;
         justify-content: center;
+        margin-top: 64px;
     }
     .worklistt{
-        margin-top: 64px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .worklist .worklistt-two{
+        margin-top: 0;
     }
 
     .team{
         padding-bottom: 104px;
     }   
 
-    .customers-list{
+    .customers-list {
+        column-gap: 24px;
     }
 
     .customers .container{
@@ -119,7 +131,7 @@ line-height: 60px;
     }
 
     .customers-penkts{
-        width: calc(( 100% - 76px ) / 3 );
+        width: calc(( 100% - 48px ) / 3 );
     
     }
 

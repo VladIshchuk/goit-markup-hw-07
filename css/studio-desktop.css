@@ -2,10 +2,13 @@
     
     .container{
         width: 1158px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .header{
         padding-bottom: 28px;
+        padding-top: 24px;
     }
 
     .header-logo{
@@ -13,8 +16,19 @@
         
     }
 
+    .header-navi{
+        padding-top: 0px;
+        justify-content: center;
+    }
+
     .contacts{
         margin-left: 332px;
+    }
+
+    .contacts a {
+        font-weight: 400;
+font-size: 16px;
+line-height: calc(24/16);
     }
 
     .advantages{
@@ -35,9 +49,11 @@ line-height: 24px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
          url(../images/hero-bg-desktop.jpg);
-         width: 1440px;
+         min-width: 1200px;
          margin-left: auto;
          margin-right: auto;
+         padding-top: 188px;
+         padding-bottom: 188px;
 
     }
 
@@ -48,7 +64,7 @@ line-height: 24px;
     background-image:  linear-gradient(rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)), 
     url(../images/hero-bg-desktop-2x.jpg);
-    width: 1440px;
+    min-width: 1200px;
          margin-left: auto;
          margin-right: auto;
   }
@@ -102,8 +118,13 @@ line-height: 24px;
         margin-right: auto;
     }
 
+    .customers-list{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .customers-penkts{
-        width: 168px;
+        width: calc((100% - 120px) / 6);
     }
 
     .customers{
@@ -111,12 +132,7 @@ line-height: 24px;
         padding-bottom: 120px;
     }
 
-    .customers-list{
-        width: 100%;
-        min-width: 1100px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+
 
     .footer{
         padding-top: 100px;
@@ -126,7 +142,7 @@ line-height: 24px;
 
     .foot-sube{
 padding: 0;
-margin-left: 80px;
+margin-left: auto;
 
 
     }
