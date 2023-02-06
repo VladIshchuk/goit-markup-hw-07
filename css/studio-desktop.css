@@ -7,8 +7,12 @@
     }
 
     .header{
-        padding-bottom: 28px;
+        padding-bottom: 24px;
         padding-top: 24px;
+    }
+
+    .current::after{
+        bottom: -28px;
     }
 
     .header-logo{
